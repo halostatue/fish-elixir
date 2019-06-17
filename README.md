@@ -1,14 +1,13 @@
 # halostatue/fish-elixir
 
-A quick plugin for <a href="https://fishshell.com" title="friendly
-interactive shell">fish shell</a> to ensure that $HOME/.mix is in $PATH (via
-fish_user_paths).
+A quick plugin for [fish shell][] to ensure that `$HOME/.mix` is added to
+`$PATH` via `$fish_user_paths`.
 
-[![Version](https://img.shields.io/github/tag/halostatue/fish-elixir.svg?label=Version)](https://github.com/halostatue/fish-elixir/releases)
+[![Version][]][]
 
 ## Installation
 
-Install with [Fisher](https://github.com/jorgebucaran/fisher) (recommended):
+Install with [Fisher][] (recommended):
 
 ```fish
 fisher add halostatue/fish-elixir
@@ -25,10 +24,16 @@ directory structure.
 
 ### System Requirements
 
-- [fish](https://github.com/fish-shell/fish-shell) 3.0+
+- [fish][] 3.0+
 
 ## Functions
 
 ## License
 
 [MIT](LICENCE.md)
+
+[fish shell]: https://fishshell.com "friendly interactive shell"
+[Version]: https://img.shields.io/github/tag/halostatue/fish-elixir.svg?label=Version
+[![Version][]]: https://github.com/halostatue/fish-elixir/releases
+[Fisher]: https://github.com/jorgebucaran/fisher
+[fish]: https://github.com/fish-shell/fish-shell
