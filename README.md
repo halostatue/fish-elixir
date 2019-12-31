@@ -1,7 +1,7 @@
 # halostatue/fish-elixir
 
 A quick plugin for [fish shell][] to ensure that `$HOME/.mix` is added to
-`$PATH` via `$fish_user_paths`.
+`$PATH` via `$fish_user_paths`. It also provides a mix task completion script.
 
 [![Version][]][]
 
@@ -18,15 +18,13 @@ fisher add halostatue/fish-elixir
 
 ---
 
-Copy `conf.d/*.fish` to your fish configuration directory preserving the
-directory structure.
+Copy `conf.d/*.fish` and `completions/*.fish` to your fish configuration
+directory preserving the directory structure.
 </details>
 
 ### System Requirements
 
 - [fish][] 3.0+
-
-## Functions
 
 ## License
 
