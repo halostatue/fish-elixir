@@ -10,7 +10,11 @@ A quick plugin for [fish shell][] to ensure that `$HOME/.mix` is added to
 Install with [Fisher][] (recommended):
 
 ```fish
+# Fisher 3.x
 fisher add halostatue/fish-elixir
+
+# Fisher 4.0+
+fisher install halostatue/fish-elixir
 ```
 
 <details>
