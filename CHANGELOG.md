@@ -1,5 +1,10 @@
 # fish-elixir Changelog
 
+## 1.2.1 / 2022-04-04
+
+- Small improvement to how `$HOME/.mix` is added to `fish_user_paths`, if
+  needed.
+
 ## 1.2 / 2021-04-17
 
 - Replace `mix task` completion filter `awk` script with `string replace`.
