@@ -1,5 +1,11 @@
 # fish-elixir Changelog
 
+## 1.3.0 / 2022-08-19
+
+- Add support for `$HOME/.mix/escripts`.
+
+- Fix an error on uninstall.
+
 ## 1.2.1 / 2022-04-04
 
 - Small improvement to how `$HOME/.mix` is added to `fish_user_paths`, if
