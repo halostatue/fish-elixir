@@ -6,6 +6,8 @@
 
 - Switch to using `fish_add_path` instead of `set -a`.
 
+- Tags from this release no longer have `.x`, but `v1.x` is maintained.
+
 ## 1.3.0 / 2022-08-19
 
 - Add support for `$HOME/.mix/escripts`.

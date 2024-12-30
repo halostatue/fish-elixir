@@ -11,7 +11,7 @@ script.
 Install with [Fisher][Fisher]:
 
 ```fish
-fisher install halostatue/fish-elixir@1.x
+fisher install halostatue/fish-elixir@v1
 ```
 
 ### System Requirements
