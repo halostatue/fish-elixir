@@ -1,5 +1,11 @@
 # fish-elixir Changelog
 
+## 1.4.0 / 2024-12-30
+
+- Update Code of Conduct to Contributor Covenant 2.1.
+
+- Switch to using `fish_add_path` instead of `set -a`.
+
 ## 1.3.0 / 2022-08-19
 
 - Add support for `$HOME/.mix/escripts`.
@@ -17,7 +23,7 @@
 
 ## 1.1 / 2019-12-31
 
-- Add `mix task` completion, based in part on [plugin-mix][].
+- Add `mix task` completion, based in part on [plugin-mix][plugin-mix].
 
 ## 1.0.2 / 2019-06-17
 
