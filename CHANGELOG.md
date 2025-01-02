@@ -1,5 +1,9 @@
 # fish-elixir Changelog
 
+## 2.0.0 / 2025-01-01
+
+- Ensure that `fish_add_path` is updating `PATH`, not `fish_user_paths`.
+
 ## 1.4.0 / 2024-12-30
 
 - Update Code of Conduct to Contributor Covenant 2.1.
