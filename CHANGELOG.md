@@ -1,5 +1,9 @@
 # fish-elixir Changelog
 
+## 2.0.1 / 2025-01-03
+
+- Fix an issue where fisher fails if a sourced file returns non-zero.
+
 ## 2.0.0 / 2025-01-01
 
 - Ensure that `fish_add_path` is updating `PATH`, not `fish_user_paths`.
