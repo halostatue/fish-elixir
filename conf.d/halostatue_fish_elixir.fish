@@ -1,5 +1,5 @@
 test -d $HOME/.mix
-or return
+or return 0
 
 if ! contains -- $HOME/.mix $PATH && ! contains -- $HOME/.mix $fish_user_paths
     fish_add_path --path --append $HOME/.mix
