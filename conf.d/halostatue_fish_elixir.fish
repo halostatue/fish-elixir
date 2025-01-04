@@ -1,11 +1,11 @@
 test -d $HOME/.mix
 or return 0
 
-if ! contains -- $HOME/.mix $PATH && ! contains -- $HOME/.mix $fish_user_paths
+if ! contains -- $HOME/.mix $fish_user_paths
     fish_add_path --path --append $HOME/.mix
 end
 
-if ! contains -- $HOME/.mix/escripts $PATH && ! contains -- $HOME/.mix/escripts $fish_user_paths
+if ! contains -- $HOME/.mix/escripts $fish_user_paths
     fish_add_path --path --append $HOME/.mix/escripts
 end
 

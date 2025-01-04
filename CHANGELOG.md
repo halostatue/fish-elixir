@@ -1,5 +1,9 @@
 # fish-elixir Changelog
 
+## 2.0.2 / 2025-01-04
+
+- Simplify the "already exists" test to only check `$fish_user_paths`.
+
 ## 2.0.1 / 2025-01-03
 
 - Fix an issue where fisher fails if a sourced file returns non-zero.
