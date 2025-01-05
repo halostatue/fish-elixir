@@ -1,5 +1,13 @@
 # fish-elixir Changelog
 
+## 2.0.3 / 2025-01-04
+
+- Added version information to comment tags.
+- Switched to long flags where possible.
+- Switched to `set --function` instead of `set --local`.
+- Updated documentation.
+- Added tooling to the Justfile for easier release management.
+
 ## 2.0.2 / 2025-01-04
 
 - Simplify the "already exists" test to only check `$fish_user_paths`.

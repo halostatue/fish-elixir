@@ -1,3 +1,5 @@
+# @halostatue/fish-brew/conf.d/halostatue_fish_elixir.fish:v2.0.3
+
 test -d $HOME/.mix
 or return 0
 
@@ -10,11 +12,11 @@ if ! contains -- $HOME/.mix/escripts $fish_user_paths
 end
 
 function _halostatue_fish_elixir_uninstall -e halostatue_fish_elixir_uninstall
-    set -l i (contains -i -- $HOME/.mix $fish_user_paths)
-    and set -e fish_user_paths[$i]
+    set --function i (contains -i -- $HOME/.mix $fish_user_paths)
+    and set --erase fish_user_paths[$i]
 
     set i (contains -i -- $HOME/.mix/escripts $fish_user_paths)
-    and set -e fish_user_paths[$i]
+    and set --erase fish_user_paths[$i]
 
-    functions -e (functions -a | command awk '/_halostatue_fish_elixir_/')
+    functions --erase (functions --all | command awk '/_halostatue_fish_elixir_/')
 end

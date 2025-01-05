@@ -1,7 +1,7 @@
-# These completions are from https://github.com/halostatue/fish-elixir
+# @halostatue/fish-brew/completions/mix.fish:v2.0.3
 
 function _halostatue_fish_elixir_mix_needs_command
-    set cmd (commandline -opc)
+    set --function cmd (commandline -opc)
     test (count $cmd) -eq 1 -a $cmd[1] = mix
 end
 
