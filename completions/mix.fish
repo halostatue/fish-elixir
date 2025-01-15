@@ -1,4 +1,4 @@
-# @halostatue/fish-elixir/completions/mix.fish:v2.0.3
+# @halostatue/fish-elixir/completions/mix.fish:v2.0.4
 
 function _halostatue_fish_elixir_mix_needs_command
     set --function cmd (commandline -opc)

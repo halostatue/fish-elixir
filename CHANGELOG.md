@@ -1,5 +1,11 @@
 # fish-elixir Changelog
 
+## 2.0.4 / 2025-01-15
+
+- Changed `conf.d/halostatue_fish_elixir.fish` to no longer exit early if
+  `$HOME/.mix` does not exist; the uninstall function should be created in all
+  cases.
+
 ## 2.0.3 / 2025-01-04
 
 - Added version information to comment tags.
