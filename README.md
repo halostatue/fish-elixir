@@ -1,6 +1,7 @@
 # halostatue/fish-elixir
 
 [![Version][version]](https://github.com/halostatue/fish-elixir/releases)
+[![MIT](https://img.shields.io/badge/licence-MIT-blue?style=for-the-badge "MIT")](https://github.com/halostatue/fish-elixir/blob/main/LICENCE.md)
 
 Configuration and completions for [Elixir][elixir]'s `mix` tool for the
 [fish shell][shell].
